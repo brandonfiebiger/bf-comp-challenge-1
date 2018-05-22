@@ -57,7 +57,9 @@ article {
 }
 
 .box1:hover {
-  background-image: url('https://media.giphy.com/media/oSYflamt3IEjm/giphy.gif');
+  background-image: url('https://media1.giphy.com/media/QyQCvhAlN4Qus/giphy.gif');
+  background-size: cover;
+  background-position: center;
 }
 
 i {
@@ -120,6 +122,10 @@ h2 {
   justify-content: space-between;
   padding: 20px;
 }
+
+ #arrows {
+    font-size: 4vw;
+  }
 
 @media screen and (max-width: 1324px) {
   
@@ -325,12 +331,27 @@ h2 {
     width: 60%;
     font-size: 10px;
     margin-left: 8px;
-
   }
 
   button {
     height: 29px;
     width: 25%;
+  }
+
+  .box1 {
+    background-color: #E91E63;
+  }
+
+  .box3 {
+    background-color: #536DFE;
+  }
+
+  .box5 {
+    background-color: #E91E63;
+  }
+
+  .box7 {
+    background-color: #C2185B;
   }
 }
 
